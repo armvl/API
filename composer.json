@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/engine"
+        }
+    },
+    "require": {
+        "dibi/dibi": "^5.0",
+        "ext-mbstring": "*",
+        "ext-json": "*"
+    }
+}
